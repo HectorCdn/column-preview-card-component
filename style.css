@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    font-family: "Big Shoulders Display";
+}
+
+
+.orange {
+    padding: 45px;
+    height: 65%;
+    width: 100%;
+    background-color: #E28625;
+    color: white;
+}
+
+.voitureOrange {
+    background: center / cover url("voitureOrange.png");
+    width: 64px;
+    height: 40px;
+    background-color: #E28625;
+}
+
+h1 {
+    margin: 25px 0px;
+}
+
+.lore {
+    font-family: "Lexend Deca";
+    font-weight: 200;
+}
+
+.boutonOrange {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 25px;
+    font-family: "Lexend Deca";
+    border-radius: 25px;
+    color: #E28625;
+    background-color: white;
+    padding: 12px 30px;
+    width: 70%;
+    border: solid white 2px ;
+}
+
+.boutonOrange:hover {
+    color: white;
+    background-color: #E28625;
+    border: solid white 2px ;
+}
+
+.cyan {
+    padding: 45px;
+    height: 65%;
+    width: 100%;
+    background-color: #006971;
+    color: white;
+}
+
+.voitureCyan {
+    background: center / cover url("voitureCyan.png");
+    width: 64px;
+    height: 40px;
+}
+
+.boutonCyan {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 25px;
+    font-family: "Lexend Deca";
+    border-radius: 25px;
+    color: #006971;
+    background-color: white;
+    padding: 12px 30px;
+    width: 70%;
+    border: solid white 2px ;
+}
+
+.boutonCyan:hover {
+    color: white;
+    background-color: #006971;
+    border: solid white 2px ;
+}
+
+.bleu {
+    padding: 45px;
+    height: 65%;
+    width: 100%;
+    background-color: #004140;
+    color: white;
+}
+
+.voitureBleu {
+    background: center / cover url("voitureCyan.png");
+    width: 64px;
+    height: 40px;
+}
+
+.boutonBleu {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 25px;
+    font-family: "Lexend Deca";
+    border-radius: 25px;
+    color: #004140;
+    background-color: white;
+    padding: 12px 30px;
+    width: 70%;
+    border: solid white 2px ;
+}
+
+.boutonBleu:hover {
+    color: white;
+    background-color: #004140;
+    border: solid white 2px ;
+}
+
+@media screen and (min-width : 321px) {
+    
+    body {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+
+
+
+
+
